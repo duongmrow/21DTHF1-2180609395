@@ -16,7 +16,7 @@ namespace LAB04
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new loadsinhvien());
         }
     }
 }
