@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 // trieu o day
+// hoang da o day
 namespace LAB04
 {
     public partial class Main : Form
