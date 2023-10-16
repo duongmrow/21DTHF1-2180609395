@@ -15,10 +15,11 @@ namespace LAB04.Model
             Students = new HashSet<Student>();
         }
 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int FacultyID { get; set; }
 
         [Required]
-        [StringLength(200)]
+        [StringLength(50)]
         public string FacultyName { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
